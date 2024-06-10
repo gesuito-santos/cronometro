@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/cron.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title>Cronômetro</title>
+</head>
+
+<body>
+
+   <form name="form_main">
+        <div class="relogio">
+            <div>
+                <span id="hour">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+
+            <div>
+                <span id="minute">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+
+            <div>
+                <span id="second">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
+
+            <div>
+                <span id="milisecond">000</span>
+                <span class="tempo">Miliegundos</span>
+            </div>
+        </div>
+
+        <br>
+    
+        <div class="botao">
+            <button onclick="play()" id="inicio" type="button" name="start">START</button>
+            <button onclick="brake()" id="pausa" type="button" name="pause">PAUSE</button>
+            <button onclick="end()"  id="parar" type="button" name="reset">RESET</button>
+        </div>
+      
+    </form>
+
+    
+
+   
+
+</body>
+
+</html>

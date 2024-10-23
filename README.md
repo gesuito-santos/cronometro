@@ -1,6 +1,6 @@
 <div align = "center">
   <h1>Cronômetro</h1>
-  <img src = "https://github.com/gesuito-santos/cronometro/blob/main/assets/mockup%20cronometro.png">
+  <img src = "https://github.com/gesuito-santos/cronometro/blob/main/assets/responsive-mockup-cronometro.png">
 </div>
 <br>
 
